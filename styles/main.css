@@ -1,0 +1,336 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    background-color: white;
+    height: 100%;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+/*MID SECTION----START*/
+.mid-section-container {
+    margin-left: 200px;
+}
+
+.mid-section {
+    padding: 0px;
+}
+/*MID SECTION----END*/
+
+
+/*IMAGE----START*/
+.hero {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+}
+
+.fixed-image {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+/*IMAGE END*/
+
+/*SIDE HEADING----START*/
+.h2, .h3, .h4, .h6 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #173b6c;
+    padding-left: 30px;
+    padding-top: 110px;
+}
+
+/*ABOUT-IMG*/
+.about-section {
+    display: flex;
+}
+
+.about-img {
+    height: auto; 
+    margin-right: 20px;
+    height: 20em;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+}
+/*ABOUT-IMG----END*/
+
+/*WEB DEVELOPER----START*/
+.h5-container {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.h5 {
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #173b6c;
+}
+
+.passion{
+    font-style: italic !important;
+    font-weight: lighter;
+}
+/*WEB DEVELOPER----END*/
+
+.h2::after {
+    content: "";
+    display: block;
+    width: 5%;
+    border-bottom: 3px solid #149ddd;
+    margin-top: 5px;
+}
+
+.h3::after,
+.h4::after,
+.h6::after {
+    content: "";
+    display: block;
+    width: 6%;
+    border-bottom: 3px solid #149ddd;
+    margin-top: 5px;
+}
+/*SIDE HEADING----END*/
+
+
+/*NAME ON PAGE------START*/
+/* HERO START */
+.hero-container {
+  padding-top: 180px;
+  font-size: 62px;
+  margin-bottom: 20px;
+  padding-left: 100px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #ffff;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+
+.typing-animation {
+  padding-top: 0px;
+  padding-left: 110px;
+}
+
+.typing-animation p {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.typing-animation p .typed {
+  border-bottom: 3px solid #149ddd;
+  margin-top: 5px;
+}
+/* HERO CSS END */
+/*NAME ON PAGE----END*/
+
+
+/*DESCRIPTION*/
+.writing {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.details{
+    font-weight: lighter;
+    line-height: 3.2;
+    padding-top: 30px;
+}
+
+.add-details{
+    font-weight: lighter;
+    line-height: 3.2px;
+}
+
+@media (min-width: 992px) {
+    .info-section {
+        display: flex;
+        width: 100%;
+        list-style: none;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .details-container {
+        display: flex;
+        width: 100%;
+        list-style: none;
+        padding-left: 250px;
+        padding-top: 0%;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Akills
+--------------------------------------------------------------*/
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .skills .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+  }
+  
+  .skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+  
+  .skills .progress-bar-wrap {
+    background: #dce8f8;
+    height: 10px;
+  }
+  
+  .skills .progress-bar1 {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #149ddd;
+    width: 100%;
+  }
+
+  .skills .progress-bar2 {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #149ddd;
+    width: 80%;
+  }
+
+  .skills .progress-bar3 {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #149ddd;
+    width: 30%;
+  }
+
+  .progress-bar {
+    --bs-progress-height: 1rem;
+    --bs-progress-font-size: 0.75rem;
+    --bs-progress-bg: var(--bs-secondary-bg);
+    --bs-progress-border-radius: var(--bs-border-radius);
+    --bs-progress-box-shadow: var(--bs-box-shadow-inset);
+    --bs-progress-bar-color: #fff;
+    --bs-progress-bar-bg: #0d6efd;
+    --bs-progress-bar-transition: width 0.6s ease;
+    display: flex;
+    height: var(--bs-progress-height);
+    overflow: hidden;
+    font-size: var(--bs-progress-font-size);
+    background-color: var(--bs-progress-bg);
+    border-radius: var(--bs-progress-border-radius);
+  }
+
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  border-color: white;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgba(14, 14, 26, 0.671);
+  border-radius: 10px;
+}
+
+/*CONTACT SECTION*/
+.form-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.input-wrapper label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  color: #666;
+}
+
+.form-field:focus + label,
+.form-field:valid + label {
+  top: -20px;
+  left: 10px;
+  font-size: 15px;
+  color: #333;
+}
+
+.form-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+  width:50%;
+  box-sizing: border-box;
+}
+
+.form-field:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Style for the submit button */
+.submit-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.form-group {
+  padding-left: 30px;
+}
