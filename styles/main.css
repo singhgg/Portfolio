@@ -227,7 +227,7 @@ h1 {
     height: 10px;
     transition: 0.9s;
     background-color: #149ddd;
-    width: 80%;
+    width: 100%;
   }
 
   .skills .progress-bar3 {
@@ -235,7 +235,7 @@ h1 {
     height: 10px;
     transition: 0.9s;
     background-color: #149ddd;
-    width: 30%;
+    width: 100%;
   }
 
   .progress-bar {
